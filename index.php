@@ -1,3 +1,11 @@
 <?php
 
-echo "This is some changes!";
+$names = [
+    'Jhon',
+    'Doe',
+    'Jack',
+    'Marry',
+    'Sultan'
+];
+
+require "index.view.php";
