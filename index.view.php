@@ -10,12 +10,10 @@
 <body>
 
     <div>
-        <h1>My First CSS Example</h1>
-        <p>This is a paragraph.</p>
+        <h1>PDO refactoring and Collaborators</h1>
     </div>
     <ul class="a">
         <?php foreach ($tasks as $task): ?>
-            
             <li>
                 <?php if($task->completed) : ?>
                     <strike><?= $task->description; ?></strike> 
