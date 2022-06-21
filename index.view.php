@@ -14,8 +14,8 @@
         <p>This is a paragraph.</p>
     </div>
     <ul class="a">
-        <?php foreach ($names as $name): ?>
-            <li><?= $name; ?></li>
+        <?php foreach ($tasks as $task): ?>
+            <li><?= $task->description; ?></li>
         <?php endforeach; ?>
     </ul>
 
