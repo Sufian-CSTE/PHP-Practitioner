@@ -1,0 +1,22 @@
+{
+    "name": "sufian/php-practitioner",
+    "description": "We all start somewhere. When it comes to web development with PHP, well, your first stop is this series. Designed specifically and exclusively for beginners, here, you'll learn the fundamentals of PHP - all the way down to defining variables and arrays.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sufian\\PhpPractitioner\\": "src/"
+        },
+        "classmap": [
+            "*/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Sufian-CSTE",
+            "email": "sufian.nstu27@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
