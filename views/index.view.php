@@ -16,6 +16,18 @@
                     <?php endif; ?>
                 </p>
             <?php endforeach; ?>
+
+            <?php foreach ($users as $user) : ?>
+                <p>
+                    <li><?= $user->name; ?></li>
+                </p>
+            <?php endforeach; ?>
+
+            <form style="margin-top: 5px;" action="names" method="POST">
+                <label style="margin-top: 5px;" for="name">First name:</label><br>
+                <input style="margin-top: 5px;" type="text" id="name" name="name" value=""><br>
+                <button style="margin-top: 10px;" type="submit">submit</button>
+            </form>
             <img src="https://www.w3schools.com/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
         </header>
     </div>

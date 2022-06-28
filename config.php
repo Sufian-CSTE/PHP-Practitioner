@@ -8,7 +8,7 @@ return [
         'username' => 'root',
         'password' => '',
         'option' => [
-            PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING
+            PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
         ],
     ]
 ];
