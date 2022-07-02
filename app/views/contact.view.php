@@ -1,5 +1,5 @@
-<?php require('views/partial/header.php'); ?>
-<?php require('views/partial/nav.php'); ?>
+<?php require('app/views/partial/header.php'); ?>
+<?php require('app/views/partial/nav.php'); ?>
 <!-- Page Content -->
 <div class="w3-padding-large" id="main">
     <!-- Contact Section -->
@@ -40,4 +40,4 @@
         <!-- End Contact Section -->
     </div>
 </div>
-<?php require('views/partial/footer.php'); ?>
+<?php require('app/views/partial/footer.php'); ?>

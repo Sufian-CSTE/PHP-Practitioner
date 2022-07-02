@@ -1,5 +1,9 @@
 <?php
 
+namespace App\Controllers;
+
+use App\Core\App;
+
 class PagesController
 {
     public function home()
@@ -17,6 +21,6 @@ class PagesController
 
     public function contact()
     {
-        require "views/contact.view.php";
+        return view('contact');
     }
 }
