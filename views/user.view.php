@@ -1,4 +1,4 @@
-    <?php require('views/partial/header.php'); ?>
+<?php require('views/partial/header.php'); ?>
     <?php require('views/partial/nav.php'); ?>
     <!-- Page Content -->
     <div class="w3-padding-large" id="main">
@@ -7,16 +7,18 @@
             <h1 class="w3-jumbo">
                 <span class="w3-hide-small">I'm</span> John Doe.
             </h1>
-            <?php foreach ($tasks as $task) : ?>
+
+            <?php foreach ($users as $user) : ?>
                 <p>
-                    <?php if ($task->completed) : ?>
-                        <strike><?= $task->description; ?></strike>
-                    <?php else : ?>
-                        <?= $task->description; ?>
-                    <?php endif; ?>
+                    <li><?= $user->name; ?></li>
                 </p>
             <?php endforeach; ?>
 
+            <form style="margin-top: 5px;" action="store" method="POST">
+                <label style="margin-top: 5px;" for="name">First name:</label><br>
+                <input style="margin-top: 5px;" type="text" id="name" name="name" value=""><br>
+                <button style="margin-top: 10px;" type="submit">submit</button>
+            </form>
             <img src="https://www.w3schools.com/w3images/man_smoke.jpg" alt="boy" class="w3-image" width="992" height="1108">
         </header>
     </div>

@@ -6,13 +6,13 @@
         <i class="fa fa-home w3-xxlarge"></i>
         <p>HOME</p>
     </a>
+    <a href="/users" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p>USER</p>
+    </a>
     <a href="/about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
         <i class="fa fa-user w3-xxlarge"></i>
         <p>ABOUT</p>
-    </a>
-    <a href="/about/culture" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-        <i class="fa fa-eye w3-xxlarge"></i>
-        <p>Culture</p>
     </a>
     <a href="/contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
         <i class="fa fa-envelope w3-xxlarge"></i>
